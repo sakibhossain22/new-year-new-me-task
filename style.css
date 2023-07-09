@@ -126,6 +126,35 @@
     font-size: 25px;
     font-weight: 500;
 }
+
 .plan-sec {
     margin: 130px 0;
+}
+
+.call-now-container {
+    width: 1140px;
+    background-image:  url('images/gradient2.png'), url('images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.call-header {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.call-btn {
+    border: none;
+    border-radius: 5px;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 36px;
+    margin-top: 45px;
+}
+
+.call-now-content {
+    padding: 60px 64px;
 }
