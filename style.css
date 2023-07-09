@@ -1,32 +1,35 @@
 * {
-    margin: 0;
     padding: 0;
-    max-width: 1600px;
     margin: auto;
-    font-family: 'Open Sans', sans-serif;
+    max-width: 1600px;
     font-family: 'Work Sans', sans-serif;
 }
+
 .header {
     background-image: url('images/banner/banner2.png');
     background-size: cover;
 
 }
+
 .header-content {
     padding: 200px 230px 200px 700px;
     margin: auto;
     text-align: right;
 }
+
 .header-title {
     font-size: 65px;
     font-weight: 700;
     color: #151414;
 }
+
 .header-discription {
     font-size: 16px;
     font-weight: 400px;
     color: #444343;
-    margin:25px 0 55px 0;
+    margin: 25px 0 55px 0;
 }
+
 .btn {
     color: white;
     font-size: 20px;
@@ -34,4 +37,50 @@
     padding: 20px 26px;
     background-color: #F15B22;
     border: none;
+}
+
+.my-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1140px;
+    gap: 110px;
+}
+
+.my-header {
+    color: #151414;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.my-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 25px 0 24px 0;
+}
+.my-container span {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+.f-photo {
+    border-radius: 527.929px;
+    /* background: rgba(241, 91, 34, 0.20); */
+    background-image: url('');
+}
+.photo-div {
+    position: relative;
+    z-index: 1;
+}
+.dot {
+    height: 527px;
+    width: 527px;
+    background: rgba(241, 91, 34, 0.2);
+    border-radius: 527px;
+    display: inline-block;
+    position: absolute;
+    top: 198px;
+    left: 19px;
+    z-index: -1;
 }
